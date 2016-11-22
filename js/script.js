@@ -49,7 +49,7 @@ var quotes = [
   },
 ];
 
-// don't display a random quote more than once
+
 var quoteIndices = [];
 
 // automatic new quote duration
@@ -78,7 +78,6 @@ function getRandomQuote(arr){
 
 
 function printQuote(){
-
   // display random quote
   var quoteBox = document.getElementById('quote-box'),
       quoteObj = getRandomQuote(quoteIndices),
