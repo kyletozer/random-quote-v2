@@ -83,6 +83,8 @@ function printQuote(){
       quoteObj = getRandomQuote(quoteIndices),
       templateString = '';
 
+  
+  console.log(quoteObj);
 
   // generate the template string
   templateString += '<p class="quote">' + quoteObj.quote + ' </p>';
